@@ -1,0 +1,28 @@
+//Get Rid of White Space
+-Body has a default margin.
+-Set that to zero.
+
+//What is margin collapsing?
+When a block element margin meets the other block element's margin. The weird things is that the bigger margin will prevail. Therefore, we need to utilize
+
+margin-top or
+margin-bottom
+
+//Shorthand css
+border: 2px dashed orange
+
+vs
+
+border-width: 2px
+border-style: dashed
+border-color: orange
+
+//MARGIN CSSS
+margin-top: 5px
+margin-right: 5px
+margin-bottom: 5px
+margin-left: 5px
+
+!!!margin:  top, right, bottom, left.
+!!!margin: top&bottom, left&right
+!!!margin: all sizes
