@@ -26,3 +26,31 @@ margin-left: 5px
 !!!margin:  top, right, bottom, left.
 !!!margin: top&bottom, left&right
 !!!margin: all sizes
+
+
+//Width and Heighth
+When I added margin instead, it would cut of the coloring I used for 100% width and Heighth. Adding padding, however, makes the color grow.
+
+//Hierarchy
+html
+body
+main
+If you see main to heighth 100%
+and do the same to body and then
+set html to 100% you will get a nearly full screen other than any other elements blocking it.
+
+HOWEVER a short cut was to just set the height to 350px or something like that to achieve a big color block
+-WIDTH 100% is default however so you dont't have to set it, but we do this for learning.
+
+
+///BOX MODEL ................
+Content Box, way of calculating all extra perimeters
+
+This sets a cap!!!
+
+box-sizing: content-box;
+
+
+//This is best!!
+!!This includes cap but includes all perimeters.
+box-sizing: border-box;
