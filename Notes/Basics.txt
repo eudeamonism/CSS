@@ -54,3 +54,33 @@ box-sizing: content-box;
 //This is best!!
 !!This includes cap but includes all perimeters.
 box-sizing: border-box;
+
+
+//Adding navigation bar
+So I created a header tag with a tag for the title of the nav bar, then I created another nav with ul and many li....
+
+TIP -- You need padding, at least 5px for each element, or the text sits at the edge of the boundary and creates white space.
+
+//Using display feature for nav bar
+
+We created the same class for each li. We follow a nomenclature
+We in the main file and we are accessing an item in the nav so
+main-nav__item  --> is the class
+
+--Anchor tags only take content space while each li take the whole line -- this is inline.
+
+Inline items cannot get padding
+
+//Display Display
+
+display: block makes it where the dotted indentations is gone.
+display: none --> removes the content from visibility
+display: inline-block --> mixes behavior, we use
+
+//COMBINATORS Grabbing child element in CSSS
+}
+.main-header > div {
+
+}
+
+-- This grabs the div inside the main-header any div inside that div.
