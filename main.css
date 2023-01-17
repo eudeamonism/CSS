@@ -31,21 +31,35 @@ body {
 .main-header {
 	background-color: rgb(169, 163, 155);
 	padding: 8px;
-	border: yellow solid;
 }
 .main-header > div {
 	display: inline-block;
-	border: orange solid;
+	vertical-align: middle;
+}
+
+.main-header__brand {
+	color: crimson;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 22px;
 }
 
 .main-nav {
 	display: inline-block;
-	border: solid blue;
-	width: 100%;
-	text-align: center;
+	width: calc(100% - 130px);
+	text-align: right;
+	vertical-align: middle;
+}
+.main-nav__items {
+	padding: 0px;
+	margin: 0px;
 }
 .main-nav__item {
 	display: inline-block;
-	padding: 12px;
-	border: white solid;
+	margin: 0px 16px;
+}
+
+.main-nav__item a {
+	text-decoration: none;
+	color: fuchsia;
 }
