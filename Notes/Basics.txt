@@ -84,3 +84,8 @@ display: inline-block --> mixes behavior, we use
 }
 
 -- This grabs the div inside the main-header any div inside that div.
+
+
+--MAKING NAV ALL Inline
+MAKE SURE THAT NO SPACE BETWEEN DIV AND OTHER DIV
+MAKE SURE TO SUBTRACT CALCULATE(100% - X)
